@@ -107,13 +107,33 @@ main {
 
 /* filters */
 
-.vehicle__2 { filter: grayscale(80%); }
-.vehicle__3 { filter: saturate(300%); }
-.vehicle__4 { filter: hue-rotate(30deg); }
-.vehicle__5 { filter: contrast(60%) invert(100%); }
-.vehicle__6 { filter: sepia(90%); }
-.vehicle__7 { filter: blur(20px); }
-.vehicle__8 { filter: blur(3px) hue-rotate(90deg) contrast(70%); }
+.vehicle__2 {
+  filter: grayscale(80%);
+}
+
+.vehicle__3 {
+  filter: saturate(300%);
+}
+
+.vehicle__4 {
+  filter: hue-rotate(30deg);
+}
+
+.vehicle__5 {
+  filter: contrast(60%) invert(100%);
+}
+
+.vehicle__6 {
+  filter: sepia(90%);
+}
+
+.vehicle__7 {
+  filter: blur(20px);
+}
+
+.vehicle__8 {
+  filter: blur(3px) hue-rotate(90deg) contrast(70%);
+}
 
 .card__info {
   display: flex;
