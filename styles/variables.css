@@ -1,5 +1,3 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-
 :root {
   --font-base: "Inter", sans-serif;
   --font-accent: "PressStart2P", sans-serif;
@@ -27,4 +25,7 @@
       #e7e7e7 0.01%,
       #1a1a1a 100%
     );
+  --contour-color: #000;
+  --animation-fill-color: #FF0000;
+  --animation-hover-color: #000;
 }
